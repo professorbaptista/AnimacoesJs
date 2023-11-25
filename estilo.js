@@ -26,3 +26,10 @@ document.getElementById('v-1').src = 'smile_child.mp4'
     document.getElementById('botao').style.borderRadius = '12px'
     document.getElementById('botao').style.fontSize = '2em'
     document.getElementById('botao').style.border = '4px solid red'
+
+
+    // Acessando ojecto javaScript
+    const meuObj = {nome: "José Baptista", idade: "40 Anos", cidade: "Luanda"}
+    document.getElementById('id-1').innerHTML = meuObj.nome
+    document.getElementById('id-1').innerHTML = meuObj.idade
+    document.getElementById('id-1').innerHTML = meuObj.cidade
